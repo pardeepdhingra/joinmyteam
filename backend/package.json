@@ -1,0 +1,31 @@
+{
+  "name": "joinmyteam-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "migrate": "node src/migrate.ts",
+    "start": "ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "ajv": "^8.12.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "devDependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
